@@ -478,6 +478,11 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white!important;
+}
+.icon-md:hover{
+    opacity: 0.6;
+    transform: scale(0.8);
 }
 
 .icon-lg {
