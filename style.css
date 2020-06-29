@@ -91,6 +91,7 @@ blockquote .blockquote{
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 0;
 }
 
 .texture-paper::before {
@@ -778,11 +779,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #E8E8E8!important;
+    position: relative;
+    z-index: 1;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C4470E;
     color: #FFFFFF!important;
 }
 
