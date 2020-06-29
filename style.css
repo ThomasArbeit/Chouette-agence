@@ -26,10 +26,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
-blockquote .blockquote{
-    color: #232020;
-}
 .bloc {
     width: 100%;
     clear: both;
@@ -274,6 +270,7 @@ blockquote .blockquote{
 
 .voffset-lg {
     margin-top: 80px;
+    color: rgb(32, 32, 32);
 }
 
 .row-no-gutters {
