@@ -1048,4 +1048,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .img-responsive {
+        display: inline;
+    }
+
+    a[data-lightbox]:hover::before{
+        left:50%;
+    }    
 }
